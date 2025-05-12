@@ -1,12 +1,18 @@
 {
   "name": "stringhandle",
-  "version": "1.1.1",
-  "main": "index.js",
+  "version": "1.2.1",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "keywords": [],
-  "author": "TinyBoy",
+  "author": "TinyBoy | Fmack",
   "license": "ISC",
-  "description": "help you to handle with string"
+  "description": "help you to handle with string",
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "typescript": "^5.8.3"
+  }
 }
